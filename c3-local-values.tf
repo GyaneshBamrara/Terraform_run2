@@ -7,5 +7,6 @@ locals {
   common_tags = {
     owners = local.owners
     environment = local.environment
+    created_by  = "Gyanesh Bamrara"
   }
 } 
